@@ -1,0 +1,60 @@
+// コメントアウト
+# コメントアウト
+
+let text String = "Hello, Synta!"
+let num1 Int = 5
+let num2 Int = 10
+let num3 Float = 5.5
+let num4 Float = 10.5
+let data1 Bool = True
+let data2 Bool = False
+  
+print String text
+print Int num1
+print Int num2 
+print Float num3
+print Float num4
+print Bool data1
+print Bool data2
+
+type text
+type num1
+type num2
+type num3
+type num4
+type data1
+type data2
+
+input String "文字列を入力" in res1
+input Int "数値を入力" in res2
+input Float "数値を入力" in res3
+input Bool "何か入力" in res4
+  
+print String res1
+print Int res2
+print Float res3
+print Bool res4
+  
+calc Int num1 + num2 = resNum1
+calc Int num1 - num2 = resNum2
+calc Int num1 * num2 = resNum3
+calc Int num1 / num2 = resNum4
+calc Int num1 % num2 = resNum5
+  
+calc Float num3 + num4 = resNum6
+calc Float num3 - num4 = resNum7
+calc Float num3 * num4 = resNum8
+calc Float num3 / num4 = resNum9
+calc Float num3 % num4 = resNum10
+  
+print Int resNum1  
+print Int resNum2
+print Int resNum3
+print Int resNum4
+print Int resNum5
+  
+print Float resNum6
+print Float resNum7
+print Float resNum8
+print Float resNum9
+print Float resNum10
